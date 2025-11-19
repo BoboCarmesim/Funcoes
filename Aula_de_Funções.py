@@ -57,7 +57,17 @@ def somador (a,b,c):
     s= a+b+c
     print(f"Recebi 3 numeros e a soma é {s}")
 
-result1=int(input("Digite o primeiro valor:"))
-result2=int(input("Digite o segundo valor:"))
-result3=int(input("Digite o terceiro valor:"))
-somador(result1,result2,result3)
+#result1=int(input("Digite o primeiro valor:"))
+#result2=int(input("Digite o segundo valor:"))
+#result3=int(input("Digite o terceiro valor:"))
+#somador(result1,result2,result3)
+
+def dobra (lst):
+    pos=0
+    while pos < len(lst):
+        lst [pos] *=2
+        pos +=1
+
+valores=[7,2,5,0,4]
+dobra(valores)
+print(valores)
